@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>AOS</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Animate on Scroll</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, alias!</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="bird.jpg" alt="">
+            <div>
+                <h3>Bird</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat nobis quae est, incidunt
+                    consequuntur mollitia, magni quisquam id officiis error fugit aperiam quas aspernatur esse
+                    reprehenderit. Eligendi, velit dolor.
+                </p>
+                <a href="#" class="btn">Hello</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="river.jpg" alt="">
+            <div>
+                <h3>River</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat nobis quae est, incidunt
+                    consequuntur mollitia, magni quisquam id officiis error fugit aperiam quas aspernatur esse
+                    reprehenderit. Eligendi, velit dolor.
+                </p>
+                <a href="#" class="btn">Hello</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="water.jpg" alt="">
+            <div>
+                <h3>Water</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat nobis quae est, incidunt
+                    consequuntur mollitia, magni quisquam id officiis error fugit aperiam quas aspernatur esse
+                    reprehenderit. Eligendi, velit dolor.
+                </p>
+                <a href="#" class="btn">Hello</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="woods.jpg" alt="">
+            <div>
+                <h3>Woods</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat nobis quae est, incidunt
+                    consequuntur mollitia, magni quisquam id officiis error fugit aperiam quas aspernatur esse
+                    reprehenderit. Eligendi, velit dolor.
+                </p>
+                <a href="#" class="btn">Hello</a>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
